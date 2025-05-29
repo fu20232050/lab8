@@ -36,3 +36,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             sudo chown -R root /var/www/html
+            timeout: 300s
